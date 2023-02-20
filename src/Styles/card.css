@@ -1,0 +1,100 @@
+.customeCard{
+    display:flex;
+    flex-direction: column;
+    margin:50px 20px 20px 20px;
+    height: 50vh;
+}
+.boxFull{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.mainImg{
+   width: 40%;
+ 
+}
+
+.smallImg{
+    width:50px;
+    height:50px;
+    cursor: pointer;
+}
+.container-PaginationRounded{
+    display: flex;
+    justify-Content: center;
+}   
+.PaginationRounded{
+    width: 10%;
+} 
+
+.PrograssBar{
+    display: flex;
+    justify-Content:center;
+   align-items: center;
+    height:100vh;
+}
+
+.moves{
+    background: #56ab2f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+cursor:pointer;
+border-Radius:5px;
+
+}
+.evolutions{
+    background: #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+cursor:pointer;
+border-Radius:5px;
+
+
+}
+.held-items{
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    cursor:pointer;
+    border-Radius:5px;
+
+}
+
+
+.stats{
+    background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+cursor:pointer;
+border-Radius:5px;
+
+
+
+}
+
+.container-Box-stats{
+    display:flex;
+    justify-Content:center;
+    width:100%;
+}
+.Box-stats{
+    display:flex;
+    width:50%;
+    justify-content: space-between;
+}
+
+.Box-Held-Item{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+
+}
+
+.CustomGrid{
+    flex-grow: 1;
+    text-align: center;
+}
